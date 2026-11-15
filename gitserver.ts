@@ -427,4 +427,3 @@ export function handleGit(forge: Forge, ctx: GitCtx): RawReply | null {
   return textReply(404, 'not found');
 }
 
-export { VIEWER };
